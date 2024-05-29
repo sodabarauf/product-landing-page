@@ -81,6 +81,10 @@ first clone the repository with your local machin, then open in vscode by (code 
 - making idea about creating landing page
 - findig important issues about HTML CSS.
 
+##demo 
+
+![Project Demo](./assets/capture_240528_173316.png)
+
 ## Author 👩‍💻
 
 Sodaba Rauf
