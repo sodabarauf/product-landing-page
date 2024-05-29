@@ -155,36 +155,6 @@ p {
   font-size: 30px
 }
 
-#pricing {
-  width: 100%;
-  text-align: center;
-  align-items: center;
-  justify-content: space-betwwen;
-  margin-top: 60px;
-  margin-bottom: 90px;
-}
-
-.product {
-  align-items: center;
-  text-align: center;
-  width: calc(80%/3);
-  border: 1px solid white;
-  margin: 20px;
-  border-radius: 3px;
-}
-
-.level {
-  background-color: rgb(184, 179, 173);
-  color: black;
-  width: 100%;
-  padding: 15px 0 ;
-  font-weight: 700;
-} 
-
-h3 {
-  text-align: center;
-}
-
 @media only screen and (min-width: 500px) {
   body {
     flex-direction: row;
