@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+body {
+    background-image: url(./assets/river.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+}
+
+#header{
+    position: fixed;
+    top: 0;
+    background: #57aaca;
+    display:flex;
+    color: white;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+#header-img {
+    max-width: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.logo, .btn {
+  width: 100vw;
+  text-align: left;
+  justify-content: space-around;
+}
+
+#nav-bar {
+  font-weight: 400;
+  width: 40vw;
+  color: white;
+  }
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+
+  }
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#email {
+  max-width: 275px;
+  min-width: 100px;
+  width: 275px;
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+#submit {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  border: none;
+  font-weight: 900;
+}
+
+button {
+  max-width: 200px;
+  width: 100%;
+  height: 50px;
+  border: none;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.content h2 {
+  font-size: 4.5rem;
+  color: white;
+  font-family: "ubuntu",sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  color: white;
+  line-height: 2;
+  margin-top: 1rem;
+  font-size: larger;
+  text-decoration: solid;
+  text-align: center;
+  justify-content: center;
+}
+
+.container {
+  padding: 20px;
+}
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  max-width: 700px;
+  margin: 0;
+  padding: 0;
+}
+.grid {
+  display: flex;
+  flex-direction: row;
+}
+
+#second {
+  color: white;
+  font-size: large;
+  align-items: left;
+  margin-top: 20px;
+}
+
+.icon {
+  width: 5vw;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+.fa-clock, .fa-band-aid, .fa-bookmark, .fa-pinterest {
+  color: rgb(248, 50, 50);
+  font-size: 30px
+}
+
+.fa-facebook, fa-twitter, .fa-instagram, .fa-pinterest {
+  color: rgb(248, 50, 50);
+  font-size: 30px
+}
+
+#pricing {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: space-betwwen;
+  margin-top: 60px;
+  margin-bottom: 90px;
+}
+
+.product {
+  align-items: center;
+  text-align: center;
+  width: calc(80%/3);
+  border: 1px solid white;
+  margin: 20px;
+  border-radius: 3px;
+}
+
+.level {
+  background-color: rgb(184, 179, 173);
+  color: black;
+  width: 100%;
+  padding: 15px 0 ;
+  font-weight: 700;
+} 
+
+h3 {
+  text-align: center;
+}
+
+@media only screen and (min-width: 500px) {
+  body {
+    flex-direction: row;
+  }
+
+  #nav-bar {
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    resize: horizontal;
+    overflow-x: scroll;
+  }
+}
+
+@media (max-width: 815px) {
+  body {
+    color: white;
+  }
+}
